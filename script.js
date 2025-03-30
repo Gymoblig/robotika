@@ -187,14 +187,14 @@ const questions = [
         explanation: "UAV (Unmanned Aerial Vehicle) sú lietajúce roboty."
     },
     {
-        question: "Výkynné kolieska sa v podvozkoch mobilných robotov používajú v úlohe",
+        question: "Výkyvné kolieska sa v podvozkoch mobilných robotov používajú v úlohe",
         options: [
             "pasívnych oporných kolies",
             "hnacích alebo riadiacich kolies",
             "len hnacích kolies (nie riadiacich)"
         ],
-        answer: 1,
-        explanation: "Výkyvné kolieska sa používajú ako hnacie alebo riadiace kolesá."
+        answer: 0,
+        explanation: "Výkyvné kolieska sa používajú ako oporné kolesá."
     },
     {
         question: "Podvozok robota s diferenciálnym pohonom je poháňaný nasledovným počtom motorov",
