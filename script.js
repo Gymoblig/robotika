@@ -103,7 +103,7 @@ const questions = [
             "priamočiary pohyb vo vodorovnom smere",
             "bude sa otáčať okolo svojej vlastnej osi"
         ],
-        answer: 1, // Correct answer is B (index 1)
+        answer: 0, // Correct answer is B (index 1)
         explanation: "Priamočiary pohyb vo zvislom smere. Pri takomto usporiadaní koles a ich otáčaní sa robot bude pohybovať vertikálne."
     },
     {
