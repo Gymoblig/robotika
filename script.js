@@ -96,6 +96,17 @@ const questions = [
         explanation: "Kĺbová kinematická štruktúra je charakteristická svojim počtom kĺbov (no shit)"
     },
     {
+        question: "V prípade naznačenej konštrukcie podvozku mobilného robota s 3 všesmerovými kolesami za predpokladu, že koleso č.1 bude stáť a kolesá č.2 a 3 sa budú krútiť rovnakou, ale opačne orientovanou rýchlosťou (v2=-v3), robot sa bude pohybovať v nasledovnom smere",
+        image: "images/7.png", // path to your image
+        options: [
+            "priamočiary pohyb vo zvislom smere",
+            "priamočiary pohyb vo vodorovnom smere",
+            "bude sa otáčať okolo svojej vlastnej osi"
+        ],
+        answer: 1, // Correct answer is B (index 1)
+        explanation: "Priamočiary pohyb vo zvislom smere. Pri takomto usporiadaní koles a ich otáčaní sa robot bude pohybovať vertikálne."
+    },
+    {
         question: "Aplikácia paralelogramu v prípade kĺbovej kinematickej štruktúry robotických manipulátorov sa NĚrealizuje z dôvodu",
         options: [
             "zvýšenie pružnosti",
@@ -584,6 +595,16 @@ const questions = [
         ],
         answer: 0,
         explanation: "Dynamický model popisuje vzťah medzi hnacimi silami a pohybom robota."
+    },
+    {
+        question: "Akú maximálnu hmotnosť bremena je možné udržať na konci 1 m dlhého ramena, ak má motor max. moment 5 Nm a je použitý prevod do pomala 1:200? Rameno je vo vodorovnej polohe a motor vyvoláva pohyb bremena zvislo nahor",
+        options: [
+            "100 kg",
+            "1000 kg",
+            "50 kg"
+        ],
+        answer: 0, // Correct answer is A (100 kg)
+        explanation: "Výpočet: Moment s prevodom = 5 Nm × 200 = 1000 Nm. Pri dĺžke ramena 1 m: F = M/l = 1000 Nm/1 m = 1000 N. Prevod na kg: m = F/g ≈ 1000 N / 9.81 m/s² ≈ 100 kg."
     }
 ];
 // Premenné pre stav kvízu
