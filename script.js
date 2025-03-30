@@ -505,7 +505,7 @@ const questions = [
             "V prvom stĺpci a prvom riadku.",
             "Vo štvrtom stĺpci a štvrtom riadku."
         ],
-        answer: 0,
+        answer: 1,
         explanation: "Prvok pre perspektívu v smere x je v 4. stĺpci a 1. riadku."
     },
     {
