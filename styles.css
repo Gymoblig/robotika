@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.quiz-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.option {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.option:hover {
+    background-color: #f0f0f0;
+}
+.option.selected {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.option.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.option.incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.feedback {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.correct-feedback {
+    background-color: #d4edda;
+    color: #155724;
+}
+.incorrect-feedback {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.next-btn, .mode-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.next-btn:hover, .mode-btn:hover {
+    background-color: #0056b3;
+}
+.score-display {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mode-selection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.progress-bar {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.progress {
+    height: 20px;
+    background-color: #28a745;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 0.3s;
+}
+.hidden {
+    display: none;
+}
+.question img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+

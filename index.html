@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotika - Kvíz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="mode-selection" class="mode-selection">
+            <h1>Robotika - Kvíz</h1>
+            <p>Vyberte si režim kvízu:</p>
+            <button id="infinite-mode" class="mode-btn">Nekonečný režim</button>
+            <button id="twenty-mode" class="mode-btn">Režim 20 otázok</button>
+        </div>
+
+        <div id="quiz-area" class="hidden">
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <div id="question" class="question"></div>
+            <div id="options" class="options"></div>
+            <div id="feedback" class="feedback"></div>
+            <button id="next-btn" class="next-btn">Ďalšia otázka</button>
+            <div id="score" class="score-display"></div>
+        </div>
+
+        <div id="results" class="hidden">
+            <h2>Výsledky</h2>
+            <p id="final-score"></p>
+            <button id="restart-btn" class="mode-btn">Začať znova</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
